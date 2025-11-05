@@ -5,11 +5,34 @@
 namespace radgrad {
 namespace tensor {
 
-class tensor {
+class Tensor {
   public:
-    void display();
-  private:
-    int data;
+    // // Constructor: create tensor from shape and data pointer
+    // Tensor(const std::vector<size_t>& shape, float* data, bool owns_data = false);
+    
+    // // Constructor: create tensor from shape and copy data
+    // Tensor(const std::vector<size_t>& shape, const float* data);
+    
+    // // Constructor: create tensor with uninitialized data
+    // explicit Tensor(const std::vector<size_t>& shape);
+    
+    // // Destructor
+    // ~Tensor();
+    
+    // // Copy Constructor
+    // Tensor(const Tensor& other);
+    
+    // // Copy Assignment Operator
+    // Tensor& operator=(const Tensor& other);
+    
+    // // Move Constructor
+    // Tensor(Tensor&& other) noexcept;
+    
+    // // Move Assignment Operator
+    // Tensor& operator=(Tensor&& other) noexcept;
+
+    void SayHello();
+    
 };
 
 } // namespace tensor 

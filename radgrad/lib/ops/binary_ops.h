@@ -4,9 +4,6 @@
 namespace radgrad {
 namespace ops {
 
-// Binary tensor operations
-// Examples: add, mul, sub, div, etc.
-
 } // namespace ops
 } // namespace radgrad
 

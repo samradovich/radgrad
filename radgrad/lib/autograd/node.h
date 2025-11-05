@@ -6,6 +6,9 @@ namespace autograd {
 
 // Node: Computation graph node
 // Stores operation information, inputs, and backward function
+class Node {
+
+};
 
 } // namespace autograd
 } // namespace radgrad

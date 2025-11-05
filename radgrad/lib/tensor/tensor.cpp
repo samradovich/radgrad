@@ -1,12 +1,15 @@
-#include "radgrad/lib/tensor/tensor.h"
 #include <stdio.h>
+#include "tensor.h"
 
 namespace radgrad {
 namespace tensor {
 
-void tensor::display() {
-  printf("tensor: %d\n", data);
-}
+
+    void Tensor::SayHello() {
+        printf("HELLO\n");
+    }
+
+
 
 } // namespace tensor
 } // namespace radgrad
