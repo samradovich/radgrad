@@ -1,7 +1,8 @@
 #include "radgrad/lib/tensor/tensor.h"
 
 int main() {
-  radgrad::tensor::Tensor t;
-  t.SayHello();
+
+  radgrad::SayHello();
+  
   return 0;
 }

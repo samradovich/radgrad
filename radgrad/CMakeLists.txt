@@ -18,6 +18,7 @@ file(GLOB_RECURSE RADGRAD_LIB_SOURCES
      "${CMAKE_CURRENT_SOURCE_DIR}/lib/autograd/*.cpp"
      "${CMAKE_CURRENT_SOURCE_DIR}/lib/memory/*.cpp"
      "${CMAKE_CURRENT_SOURCE_DIR}/lib/ops/*.cpp"
+     "${CMAKE_CURRENT_SOURCE_DIR}/lib/storage/*.cpp"
      "${CMAKE_CURRENT_SOURCE_DIR}/lib/tensor/*.cpp"
 )
 
