@@ -1,6 +1,8 @@
 # Build directory
 build/
 
+compile_commands.json
+
 # Build System 
 .cache
 
